@@ -11,6 +11,7 @@ function onFormSubmit(e) {
 
   // Capture form responses from the event object
   const responses = e.values;
+  // This is where u can Fuck up , What u can do is "Fuck around and find out"
   const email = responses[2]; // Fetch email from form responses (adjust index based on form structure)
   const name = responses[1]; // Fetch participant's name from form responses (adjust index based on form structure)
 
@@ -45,3 +46,5 @@ function onFormSubmit(e) {
   DriveApp.getFileById(slideTemplate.getId()).setTrashed(true);
   // IF u want to restore the certificate u can find it in the trash folder in the admin drive
 }
+
+// Suckers follow me on instagram ->> @abhijeet_kakade_xo
